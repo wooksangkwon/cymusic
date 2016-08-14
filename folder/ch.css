@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {font-weight: 400;
+	font-size:16px;
+	font-family: helvetica;
+	color: white;
+	background-color: black;
+	line-height: 1.4;
+}
+
+a {text-decoration: none;
+	color:white;}
+
+img {width:100%;}
+
+
+#border {border-bottom: solid 0.5px;
+		width: 100%;}
+
+#bg {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  z-index: -10;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;}
+
+h1 	{font-size: 23px;
+	line-height:1.4;
+	width:33%;
+	float:left;
+	margin-bottom: 3.5%;
+	margin-top: 3%;
+	cursor: pointer;
+	}
+
+h1:hover{
+	cursor: pointer;
+	color: blue;}
+
+h1:active{color:blue;}
+
+.nav1 {text-align: right;
+		margin-right: -5%;}
+
+.nav2 {text-align: center;}
+
+.nav3 {text-align: left;
+		margin-left:-5%;}
+
+h2 	{float:left;
+	font-weight: 300;
+	margin-left: 3.5%;
+	width:25%;
+	margin-right: -1.5%
+	}
+
+h3 {display: none;}
+
+#vertical {float: right;
+	margin-top: 17%;
+	margin-right: 0;
+	width: 150px;
+	transform: rotate(270deg);
+	font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+}
+
+h6 {padding:25%;
+	font-size: 14px;
+	text-align: center;
+	}
+
+
+span {text-decoration: underline;}
+span:hover {text-decoration:none;}
+
+.svg{float: right;
+	margin-top: 17%;
+	margin-right: 3.5%;
+	width: 27.5px;}
+
+.svg:hover{color:blue;}
+
+/* ~ ~ ~ ~ ~ ~ Music Circles from Here ~ ~ ~ ~ ~ ~ */
+
+.a {border: solid 3.5px;
+	height: 300px;
+    width: 300px;
+    margin-left: 3%;
+    margin-right: -4%;
+    margin-top:5%;
+	}
+
+.b {border: dotted 3.5px;
+	height: 200px;
+    width: 200px;
+    margin: 0%;
+	}
+
+.c {border: solid 3.5px;
+	height: 260px;
+    width: 260px;
+    margin: 1%;
+	}
+
+.d {border: dashed 3.5px;
+	height: 240px;
+    width: 240px;
+    margin-top: 5%;
+    margin-left: -5%;
+	}
+
+.e {border: solid 3.5px;
+	height: 340px;
+    width: 340px;
+    margin-left: 1.5%;
+	}
+
+.f {border: solid 3.5px;
+	height: 280px;
+    width: 280px;
+    margin-top:-1%;
+    margin-left: -2%;
+    margin-right: -4%;
+	}
+
+.g {border: dotted 3.5px;
+	height: 220px;
+    width: 220px;
+    margin: 2%;
+	}
+
+.h {border: solid 3.5px;
+	height: 320px;
+    width: 320px;
+    margin-left: -6%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+	}
+
+.i {border: solid 3.5px;
+	height: 160px;
+    width: 160px;
+    margin-left: -4%;
+	}
+
+.circle {border-color: blue;
+	background-color: transparent;
+	border-radius: 100%;
+    float: left;
+	}
+
+.circle:hover{color: white;
+	background-color: blue;
+	cursor:pointer;
+	}
+
+/* ~ ~ ~ ~ ~ ~ footer ~ ~ ~ ~ ~ ~ */
+
+audio {display: none;}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-right: 4%;
+  padding-bottom: 2%;
+}
+
+.infooter {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-right: 4%;
+  padding-bottom: 2%;
+}
+
+.box {float: right;
+	font-weight: 400;
+	width: 36px;
+	padding-left: 8px;
+	padding-top: 1%;
+	}
+
+.foot {
+	padding-left:1%;
+	padding-top: 1%;
+	font-weight: 300;
+    font-size: 11px;
+    float: right;
+    text-align: left;
+    line-height: 1.6;
+	}
+
+
