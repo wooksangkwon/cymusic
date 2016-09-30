@@ -38,10 +38,23 @@ body {font-weight: 400;
 }
 
 a {text-decoration: none;
-	color:white;}
+	color:white;
+	cursor: pointer;}
 
-img {width:100%;}
+img {width:100%;
+	}
 
+.iframe1 {width:41%;
+	margin-left: 6%;
+	margin-right: 3%;
+	float:left;}
+
+.iframe2 {width:41%;
+	margin-left: 3%;
+	margin-right: 6%;
+	float:right;}
+
+iframe {margin-bottom: 20px;}
 
 #border {border-bottom: solid 0.5px;
 		width: 100%;}
@@ -57,11 +70,12 @@ img {width:100%;}
 
 h1 	{font-size: 23px;
 	line-height:1.4;
-	width:33%;
+	width:20%;
 	float:left;
-	margin-bottom: 3.5%;
-	margin-top: 3%;
+	margin-bottom: 45px;
+	margin-top: 45px;
 	cursor: pointer;
+	text-align: center;
 	}
 
 h1:hover{
@@ -70,13 +84,10 @@ h1:hover{
 
 h1:active{color:blue;}
 
-.nav1 {text-align: right;
-		margin-right: -5%;}
 
-.nav2 {text-align: center;}
+.nav1 {padding-left:10%;}
 
-.nav3 {text-align: left;
-		margin-left:-5%;}
+.nav4 {padding-right:10%;}	
 
 h2 	{float:left;
 	font-weight: 300;
@@ -86,6 +97,17 @@ h2 	{float:left;
 	}
 
 h3 {display: none;}
+
+h4 {float:left;
+	font-size: 17px;
+	font-weight: 300;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	width: 44%;
+	text-align: center;
+	}
+
+h4:hover {color: blue;}
 
 #vertical {float: right;
 	margin-top: 17%;
@@ -106,9 +128,9 @@ h6 {padding:25%;
 span {text-decoration: underline;}
 span:hover {text-decoration:none;}
 
-.svg{float: right;
-	margin-top: 17%;
-	margin-right: 3.5%;
+.svg{position: fixed;
+	top: 47.5%;
+	right: 3.5%;
 	width: 27.5px;}
 
 .svg:hover{color:blue;}
@@ -236,3 +258,7 @@ audio {display: none;}
     line-height: 1.6;
 	}
 
+.block {float: left;
+	width: 100%;
+	height: 100px;
+	display: block;}
