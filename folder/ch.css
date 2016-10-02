@@ -101,13 +101,26 @@ h3 {display: none;}
 h4 {float:left;
 	font-size: 17px;
 	font-weight: 300;
-	margin-left: 3%;
+	margin-left: 10%;
+	margin-right: 5%;
 	margin-bottom: 2%;
-	width: 44%;
+	width: 35%;
 	text-align: center;
 	}
 
 h4:hover {color: blue;}
+
+h5 {float:left;
+	font-size: 17px;
+	font-weight: 300;
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-bottom: 2%;
+	width: 35%;
+	text-align: center;
+	}
+	
+h5:hover {color: blue;}
 
 #vertical {float: right;
 	margin-top: 17%;
